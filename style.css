@@ -1,0 +1,133 @@
+body {
+    font-family: Garamond;
+    background-color: #191919;
+}
+
+h1 {
+    color: #FF5403;
+    margin-bottom: 0;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 87%;
+    border: none;
+    border-bottom: 3px solid #FF2626;
+    font-family: monospace;
+    font-size: 17px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 8px 6px;
+    outline: none;
+    color: Black;
+    border-radius: 15px;
+    transition: 0.25s;
+}
+#textInput:hover{
+  border-color: #00C1D4;
+}
+
+#buttonInput {
+    background: white;
+    color: black;
+    padding: 8px 6px;
+    font-family: monospace;
+    font-size: 17px;
+    border-bottom: 3px solid #FF5403;
+    border-radius: 14px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#buttonInput:hover{
+  border-color: #FF5403;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #39A388;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: #EF5350;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
+footer{
+  color: #FF5403;
+  margin-bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  #chatbox {
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      margin-top: 60px;
+  }
+  #userInput {
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      margin-top: 60px;
+  }
+  #textInput {
+      width: 80%;
+      border: none;
+      border-bottom: 3px solid #FF2626;
+      font-family: monospace;
+      font-size: 17px;
+      margin: 20px auto;
+      text-align: center;
+      padding: 8px 6px;
+      outline: none;
+      color: Black;
+      border-radius: 15px;
+      transition: 0.25s;
+  }
+  #textInput:hover{
+    border-color: #00C1D4;
+  }
+}
+
